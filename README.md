@@ -23,23 +23,23 @@ This Telegram bot provides a wide range of functionalities including local busin
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/MMIXua/Outreach_manager
    cd your-repo
 Create a virtual environment:
 
 bash
-Копировать код
+
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 Install dependencies:
 
 bash
-Копировать код
+
 pip install -r requirements.txt
 Create a .env file in the project root and add the following variables:
 
 env
-Копировать код
+
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token
 LINKEDIN_CLIENT_ID=your_linkedin_client_id
 LINKEDIN_CLIENT_SECRET=your_linkedin_client_secret
@@ -49,7 +49,7 @@ OPENAI_API_KEY=your_openai_api_key
 Running the Bot
 Run the bot:
 bash
-Копировать код
+
 python main.py
 Functionality Overview
 
@@ -85,7 +85,7 @@ Bot sends personalized messages to the found LinkedIn profiles.
 Project Structure
 
 graphql
-Копировать код
+
 your-repo/
 │
 ├── main.py                    # Main entry point of the bot
